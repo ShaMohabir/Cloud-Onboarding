@@ -2,10 +2,10 @@
 
 - Cloud computing is a term used to refer to Internet based development and services
 
-- A number of characteristics define cloud data, applications services and infrastructure:
-    - Remotely hosted: Services or data are hosted on remote infrastructure
-    - Present: Services or data are available from anywhere
-    - Value: You pay for what you want and use
+- Some characteristics that define cloud data, applications services and infrastructure:
+    - Remotely hosted: services or data are hosted on remote infrastructure
+    - Presents: services or data are available from anywhere
+    - Value: Pay for what you want and use
 
 # Cloud Computing Modules
 
