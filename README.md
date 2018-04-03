@@ -39,7 +39,7 @@ The purpose of this file is to help provide an overview of cloud and the differe
 
 - To learn more about Azure and to get a hands-on experience with their console, visit [Google Cloud Portal](https://cloud.google.com/cloud-console/)
 
-###### **Important Security Message: DO NOT COMMIT YOUR CREDENTIALS to any Github Repo**
+#### **Important Security Message: DO NOT COMMIT YOUR CREDENTIALS to any Github Repo**
 
 ## Open Source Tools
 
