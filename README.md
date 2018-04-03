@@ -9,7 +9,7 @@
 
 ## Cloud Computing Modules
 
-- Software as a Service (SaaS): Software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted 
+- **Software as a Service (SaaS)**: Software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted 
 
 - Platform as a Service (PaaS): Provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure
 
