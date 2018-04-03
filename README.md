@@ -33,7 +33,7 @@
 
 1.) **Visual Studio Code** - Combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.  It allows the user to edit-build-debug with ease
 
-    [Visual Studio Code Tutorial] (https://www.youtube.com/watch?v=fnPhJHN0jTE)
+[Visual Studio Code Tutorial](https://www.youtube.com/watch?v=fnPhJHN0jTE/)
 
 2.) **Github & Git** - Github is a Code hosting platform for version control and collabaration and Git is a version control management tool
  
@@ -56,6 +56,6 @@
         - docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
 
 5.) **Docker** - 
-5.) **Kubernetes** - 
+6.) **Kubernetes** - 
 
 
