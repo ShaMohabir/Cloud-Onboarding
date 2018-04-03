@@ -51,7 +51,7 @@ To learn about Jenkins Multi-branch, review [Jenkins Multi-Branch Pipeline](http
 **Jenkins cheat sheet**
 - Installing Jenkins on an EC2/VM (Note: Since your instance will not running 24/7 and you don't have a static ip, you'll want to map your jenkins volume to your local machine/host.  In real world scenario, you won't need to do this.)
 
-1.) Make directory (mkdir) jenkins (or speficic name)
+1.) Make directory (mkdir) jenkins (or speficic name)/n
 2.) Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is name and path of the folder)
 3.) Mapping jenkins volume onto host (local machine) and installing jenkins: 
 - docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
