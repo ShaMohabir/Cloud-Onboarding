@@ -55,7 +55,9 @@ The purpose of this file is to help provide an overview of cloud and the differe
 
 - To learn more about Ansible, review [Ansible Playbook Tutorial](https://www.youtube.com/watch?v=dCQpaTTTv98) 
 
-4.) **Jenkins** - A software that allows continuous integration. Jenkins will be installed on a server where the central build will take place.  **What is Continuous Integration?** it's a development practice that requires developers to integrate code into a shared repository at regular intervals. This concept was meant to remove the problem of finding later occurrence of issues in the build lifecycle. Continuous integration requires the developers to have frequent builds. The common practice is that whenever a code commit occurs, a build should be triggered
+4.) **Docker** - details to be added later
+
+5.) **Jenkins** - A software that allows continuous integration. Jenkins will be installed on a server where the central build will take place.  **What is Continuous Integration?** it's a development practice that requires developers to integrate code into a shared repository at regular intervals. This concept was meant to remove the problem of finding later occurrence of issues in the build lifecycle. Continuous integration requires the developers to have frequent builds. The common practice is that whenever a code commit occurs, a build should be triggered
 
 - To learn more about Jenkins, review [Jenkins Tutorial](https://www.youtube.com/watch?v=Lxd6JMMxuwo&t=121s)
 
@@ -65,10 +67,8 @@ The purpose of this file is to help provide an overview of cloud and the differe
 - Installing Jenkins on an EC2/VM (Note: Since your instance will not running 24/7 and you don't have a Static IP due to cost, you may want to map your jenkins volume to your local machine/host.  In real world scenario, you won't need to do this.)
   
   - Make directory (mkdir) jenkins (or speficic name)
-  - Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is name and path of the folder)
+  - Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is the name and path of your newly created folder)
   - Mapping jenkins volume onto host (local machine) and installing jenkins: 
     - docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
 
-5.) **Docker** - 
-
-6.) **Kubernetes** - 
+6.) **Kubernetes** - details to be added later
