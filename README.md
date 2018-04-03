@@ -33,26 +33,29 @@
 
 1.) **Visual Studio Code** - Combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.  It allows the user to edit-build-debug with ease 
      
-To learn more about VS Code, review [Visual Studio Code Tutorial](https://www.youtube.com/watch?v=fnPhJHN0jTE/)
+- To learn more about VS Code, review [Visual Studio Code Tutorial](https://www.youtube.com/watch?v=fnPhJHN0jTE/)
 
 2.) **Github & Git** - Github is a Code hosting platform for version control and collabaration and Git is a version control management tool
  
-To learn more about Github and Git, review [Github & Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak)
+- To learn more about Github and Git, review [Github & Git Tutorial](https://www.youtube.com/watch?v=xuB1Id2Wxak)
 
 3.) **Ansible** - An IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.  Designed for multi-tier deployments, Ansible models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time
 
-To learn more about Ansible, review [Ansible Playbook Tutorial](https://www.youtube.com/watch?v=dCQpaTTTv98) 
+- To learn more about Ansible, review [Ansible Playbook Tutorial](https://www.youtube.com/watch?v=dCQpaTTTv98) 
 
 4.) **Jenkins** - A software that allows continuous integration. Jenkins will be installed on a server where the central build will take place.  **What is Continuous Integration?** it's a development practice that requires developers to integrate code into a shared repository at regular intervals. This concept was meant to remove the problem of finding later occurrence of issues in the build lifecycle. Continuous integration requires the developers to have frequent builds. The common practice is that whenever a code commit occurs, a build should be triggered
 
-To learn more about Jenkins, review [Jenkins Tutorial](https://www.youtube.com/watch?v=Lxd6JMMxuwo&t=121s)
-To learn about Jenkins Multi-branch, review [Jenkins Multi-Branch Pipeline](https://www.youtube.com/watch?v=uVXO95syoEg)
+- To learn more about Jenkins, review [Jenkins Tutorial](https://www.youtube.com/watch?v=Lxd6JMMxuwo&t=121s)
+
+- To learn about Jenkins Multi-branch, review [Jenkins Multi-Branch Pipeline](https://www.youtube.com/watch?v=uVXO95syoEg)
 
 **Jenkins cheat sheet**
 - Installing Jenkins on an EC2/VM (Note: Since your instance will not running 24/7 and you don't have a static ip, you'll want to map your jenkins volume to your local machine/host.  In real world scenario, you won't need to do this.)
 
-1.) Make directory (mkdir) jenkins (or speficic name)/n
+1.) Make directory (mkdir) jenkins (or speficic name)
+
 2.) Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is name and path of the folder)
+
 3.) Mapping jenkins volume onto host (local machine) and installing jenkins: 
 - docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
 
