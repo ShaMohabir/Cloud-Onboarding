@@ -29,7 +29,7 @@
 
     - To learn more about Azure and to get a hands-on experience with their console, visit [Google Cloud Portal](https://cloud.google.com/cloud-console/)
 
-## **Important Security Note: DO NOT POST YOUR CREDENTIALS TO Github Repo**
+###### **Important Security Message: DO NOT COMMIT YOUR CREDENTIALS to your Github Repo**
 
 # Cloud Open Source Tools
 
@@ -52,14 +52,12 @@
 - To learn about Jenkins Multi-branch, review [Jenkins Multi-Branch Pipeline](https://www.youtube.com/watch?v=uVXO95syoEg)
 
 **Jenkins cheat sheet**
-- Installing Jenkins on an EC2/VM (Note: Since your instance will not running 24/7 and you don't have a static ip, you'll want to map your jenkins volume to your local machine/host.  In real world scenario, you won't need to do this.)
-
-1.) Make directory (mkdir) jenkins (or speficic name)
-
-2.) Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is name and path of the folder)
-
-3.) Mapping jenkins volume onto host (local machine) and installing jenkins: 
-- docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
+- Installing Jenkins on an EC2/VM (Note: Since your instance will not running 24/7 and you don't have a Static IP due to cost, you may want to map your jenkins volume to your local machine/host.  In real world scenario, you won't need to do this.)
+  
+  - Make directory (mkdir) jenkins (or speficic name)
+  - Change folder permission sudo chown -R 1000:1000 /home/ubuntu/jenkins (this is name and path of the folder)
+  - Mapping jenkins volume onto host (local machine) and installing jenkins: 
+    - docker run -p 8080:8080 -v /home/ubuntu:/var/jenkins_home jenkins
 
 5.) **Docker** - 
 
