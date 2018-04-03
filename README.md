@@ -1,4 +1,14 @@
-# Cloud Summary
+# Cloud Overview
+The purpose of this file is to help provide an overview of cloud and the different open source tools used in the industry.
+
+## Table of Contents
+
+ - [Summary](#summary)
+ - [Computing Modules](#computing-modules)
+ - [Platforms](#platforms)
+ - [Open Source Tools](#open-source-tools)
+
+## Summary
 
 - Cloud computing is a term used to refer to Internet based development and services
 
@@ -7,7 +17,7 @@
     - Presents: services or data are available from anywhere
     - Value: Pay for what you want and use
 
-# Cloud Computing Modules
+## Computing Modules
 
 - **Software as a Service (SaaS)**: Software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted 
 
@@ -15,7 +25,7 @@
 
 - **Infrastructure as a Service (IaaS)**: Provides virtualized computing resources over the internet
 
-# Cloud Platforms
+## Platforms
 
 - **Amazon Web Services (AWS)**: The oldest and most experienced player on the market – it has 11 years in operation (established at the beginning of 2006). AWS has an extensive list of computing services with functions of deployment, mobile networking, and others
 
@@ -31,7 +41,7 @@
 
 ###### **Important Security Message: DO NOT COMMIT YOUR CREDENTIALS to your Github Repo**
 
-# Cloud Open Source Tools
+## Open Source Tools
 
 1.) **Visual Studio Code** - Combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.  It allows the user to edit-build-debug with ease 
      
@@ -62,5 +72,3 @@
 5.) **Docker** - 
 
 6.) **Kubernetes** - 
-
-
