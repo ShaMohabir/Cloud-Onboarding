@@ -5,7 +5,7 @@
 - A number of characteristics define cloud data, applications services and infrastructure:
     - Remotely hosted: Services or data are hosted on remote infrastructure
     - Present: Services or data are available from anywhere
-    - Value: You can for what you want and use
+    - Value: You pay for what you want and use
 
 # Cloud Computing Modules
 
